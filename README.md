@@ -9,7 +9,7 @@ cd eros
 
 ## Usage
 ```bash
-python eros.py <Target> <Wordlist>
+python eros.py <Username> <Wordlist>
 Example: python eros.py x9zr3 passwords.txt
 ```
 
