@@ -1,4 +1,4 @@
-# eros
+# Eros
 Twitter Password Cracker **Use this for educational purposes only.**
 
 ## Install
