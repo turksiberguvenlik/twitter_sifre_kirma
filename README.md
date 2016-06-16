@@ -3,7 +3,7 @@ Twitter Password Cracker **Use this for educational purposes only.**
 
 ## Install
 ```bash
-git clone https://github.com/x9zr3/eros
+git clone https://github.com/zayli/eros
 cd eros
 ```
 
