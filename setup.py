@@ -6,6 +6,6 @@ setup(
     description = "Twitter Password Cracker in Python.",
     author = "Cameron Poe",
     author_email = "cameron@zay.li",
-    url = "https://github.com/x9zr3/eros",
+    url = "https://github.com/cameronpoe/eros",
     keywords = ["hacking", "password", "cracking"]
 )
