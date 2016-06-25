@@ -60,7 +60,7 @@ def attack(password):
       sys.exit(1)
 
   except KeyboardInterrupt:
-    print (" Exiting Eros...")
+    print ("\n Exiting Zelus...")
     sys.exit(1)
 def main():
     global br
@@ -75,7 +75,7 @@ def main():
        br.set_cookiejar(cj)
        br.set_handle_refresh(mechanize._http.HTTPRefreshProcessor(), max_time=99999)
     except KeyboardInterrupt:
-       print (" Exiting Eros...")
+       print ("\n Exiting Zelus...")
        sys.exit(1)
     try:
        list = open(passwordlist, "r")
@@ -88,23 +88,23 @@ def main():
         print ("Error: check your password list path")
         sys.exit(1)
     except KeyboardInterrupt:
-        print (" Exiting Eros...")
+        print ("\n Exiting Zelus...")
         sys.exit(1)
     try:
         print ("""
- .%%%%%%..%%%%%....%%%%....%%%%..
- .%%......%%..%%..%%..%%..%%.....
- .%%%%....%%%%%...%%..%%...%%%%..
- .%%......%%..%%..%%..%%......%%.
- .%%%%%%..%%..%%...%%%%....%%%%..
- ................................                                            
- Welcome to Eros... Ready to start the war?
+ .%%%%%%..%%%%%%..%%......%%..%%...%%%%..
+ ....%%...%%......%%......%%..%%..%%.....
+ ...%%....%%%%....%%......%%..%%...%%%%..
+ ..%%.....%%......%%......%%..%%......%%.
+ .%%%%%%..%%%%%%..%%%%%%...%%%%....%%%%..
+ ........................................                                            
+ Welcome to Zelus... Ready to start the war?
         """)
         print (" Victim: %s" % (username))
         print (" Loaded:" , len(passwords), "passwords")
         print (" Cracking, please wait...")
     except KeyboardInterrupt:
-        print (" Exiting Eros...")
+        print ("\n Exiting Zelus...")
         sys.exit(1)
     try:
         global password
@@ -112,7 +112,7 @@ def main():
         	attack(password.replace("\n",""))
         attack(password)
     except KeyboardInterrupt:
-    	print (" Exiting Eros...")
+    	print ("\n Exiting Zelus...")
     	sys.exit(1)
 
 if __name__ == "__main__":
