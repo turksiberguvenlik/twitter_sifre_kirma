@@ -3,7 +3,7 @@ Twitter Password Cracker **Use this for educational purposes only.**
 
 ## Install
 ```bash
-git clone https://github.com/x9de/zelus
+git clone https://github.com/cameronpoe/zelus
 cd zelus
 ```
 
