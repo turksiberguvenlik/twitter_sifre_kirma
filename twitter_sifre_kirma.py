@@ -60,7 +60,7 @@ def attack(password):
       sys.exit(1)
 
   except KeyboardInterrupt:
-    print ("\n Exiting Zelus...")
+    print ("\n Programdan Cikildi")
     sys.exit(1)
 def main():
     global br
