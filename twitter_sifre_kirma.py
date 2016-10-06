@@ -92,13 +92,10 @@ def main():
         sys.exit(1)
     try:
         print ("""
- .%%%%%%..%%%%%%..%%......%%..%%...%%%%..
- ....%%...%%......%%......%%..%%..%%.....
- ...%%....%%%%....%%......%%..%%...%%%%..
- ..%%.....%%......%%......%%..%%......%%.
- .%%%%%%..%%%%%%..%%%%%%...%%%%....%%%%..
+ TURKSIBERGUVENLIK.NET
+    BIRKAN TEKKAN
  ........................................                                            
- Welcome to Zelus... Ready to start the war?
+Twitter Şifre Kırma Programı
         """)
         print (" Victim: %s" % (username))
         print (" Loaded:" , len(passwords), "passwords")
