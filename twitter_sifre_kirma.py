@@ -95,7 +95,7 @@ def main():
  TURKSIBERGUVENLIK.NET
     BIRKAN TEKKAN
  ........................................                                            
-Twitter Şifre Kırma Programı
+Twitter Sifre Kirma Programi
         """)
         print (" Victim: %s" % (username))
         print (" Loaded:" , len(passwords), "passwords")
