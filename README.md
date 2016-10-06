@@ -1,2 +1,9 @@
-# twitter_sifre_kirma
-Twitter Şifre Kırma Programı (turksiberguvenlik.net)
+Kullanım Videosu
+=
+Daha Sonra Eklenecektir.
+
+İrtibat Noktaları
+=
+- Website : http://turksiberguvenlik.net
+- Youtube : https://youtube.com/user/pcdunyasi
+- Facebook : https://facebook.com/bitekkan
